@@ -106,8 +106,13 @@
   border: 1px solid black;
   padding: 20px;
   max-width: 260px;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  height: 800px;
 }
+
+.features {
+  margin: 50px 0;
+}
+
 /* FOOTER  */
 
 /* footer {
