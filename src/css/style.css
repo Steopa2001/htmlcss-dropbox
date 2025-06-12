@@ -7,43 +7,44 @@
 
 /* UTILITY  */
 
-li {
-  text-decoration: none;
+
+
+.justify-content {
+  justify-content: space-between;
 }
 
 /* HEADER */
 
 .banner {
-  background-color: green;
-  max-width: 1600px;
-  height: 80px;
-  position: fixed;
-  width: 100%;
+  background-color: aqua;
+  max-width: 100%;
+  height: 60px;
 }
 
-.header-text {
-  background-color: aqua;
-  max-width: 1600px;
-  height: 600px;
-}
+
+
 
 
 /* MAIN   */
 
-main {
-  background-color: grey;
-  height: 2000px;
-  max-width: 900px;
-  margin: 0 auto;
-  margin-top: 100px;
-  margin-bottom: 150px;
+.blue-cont {
+  background-color: #B4D0E6;
+  max-width: 100%;
+  height: 550px;
+  padding-bottom: 50px;
 }
+
+.container {
+  background-color: white;
+}
+
+
 
 
 /* FOOTER  */
 
-footer {
+/* footer {
   background-color: #000000;
   height: 500px;
   max-width: 1600px;
-}
+}  */
