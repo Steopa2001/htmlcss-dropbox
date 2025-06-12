@@ -27,6 +27,15 @@
   list-style-type: none;
 }
 
+
+.new-m-b {
+  margin-bottom: 65px;
+}
+
+.position-relative {
+  position: relative;
+}
+
 /* HEADER */
 
 
@@ -96,6 +105,14 @@
   padding-top: 50px;
 }
 
+.user-cell {
+  border-bottom: 1px solid black;
+  position: absolute;
+  top: 0px;
+  left: 100px;
+  padding-top: 10px;
+}
+
 
 .container {
   /* background-color: grey; */
@@ -119,12 +136,41 @@
 
 .features {
   margin: 50px 0;
+  position: relative;
 }
 
 .features li {
   margin-bottom: 20px;
 }
 
+.icon-text-container {
+  display: flex;
+  margin-bottom: 20px;
+}
+
+.icon {
+  margin-right: 5px;
+}
+
+.icon-check {
+  color: #0061FE;
+  margin-right: 5px;
+}
+
+
+.btn-bg-blue {
+  background-color: #0061FE;
+  color: white;
+  text-align: center;
+  padding: 10px;
+  margin-bottom: 25px;
+  cursor: pointer;
+}
+
+.i-text-container {
+  display: flex;
+  margin-bottom: 20px;
+}
 
 
 /* FOOTER  */
