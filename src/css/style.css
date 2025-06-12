@@ -5,6 +5,12 @@
 }
 
 
+/* UTILITY  */
+
+li {
+  text-decoration: none;
+}
+
 /* HEADER */
 
 .banner {
@@ -20,6 +26,7 @@
   max-width: 1600px;
   height: 600px;
 }
+
 
 /* MAIN   */
 
