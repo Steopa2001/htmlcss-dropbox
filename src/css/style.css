@@ -19,6 +19,14 @@
   padding-bottom: 40px;
 }
 
+.m-b {
+  margin-bottom: 15px;
+}
+
+.style-none {
+  list-style-type: none;
+}
+
 /* HEADER */
 
 
@@ -112,6 +120,12 @@
 .features {
   margin: 50px 0;
 }
+
+.features li {
+  margin-bottom: 20px;
+}
+
+
 
 /* FOOTER  */
 
