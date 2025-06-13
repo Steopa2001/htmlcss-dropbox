@@ -138,9 +138,8 @@
 
 
 .container {
-  background-color: grey;
   max-width: 55%;
-  height: 2500px;
+
   margin: 150px auto;
 }
 
@@ -260,14 +259,6 @@ hr {
   width: 100%;
 }
 
-/* FOOTER  */
-
-/* footer {
-  background-color: #000000;
-  height: 500px;
-  max-width: 1600px;
-}  */
-
 .cont-2 {
   display: flex;
   width: 100%;
@@ -291,4 +282,48 @@ hr {
 .partner-btn {
   padding: 10px;
   cursor: pointer;
-}
+  background-color: white;
+  border: 1px solid black;
+  }
+
+
+
+  .container-2 {
+    max-width: 100%;
+    padding-top: 180px;
+    padding-bottom: 180px;
+  }
+
+  .container-2 h1 {
+    font-size: 2.5rem;
+    padding-bottom: 50px;
+  }
+
+  .rowr {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .col-33 {
+    width: calc(100% / 3);
+  }
+
+  .col-33 img {
+    width: 100%;
+  }
+
+  .title-h1 {
+    font-size: 1.8rem;
+  }
+
+  .scopri {
+    padding-bottom: 100px;
+  }
+  
+  /* FOOTER  */
+  
+  footer {
+    background-color: #000000;
+    height: 500px;
+    max-width: 1600px;
+  } 
